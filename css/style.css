@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    height: 800px;
+    /* background-color: black; */
+    background: linear-gradient(180deg , #04fafd 5% , #119dff 50%, #030423);
+}
+div{
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgba(255, 255, 255, 0.788);
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    animation: anim 4s linear infinite;
+}
+div .bub{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.466);
+    position: absolute;
+   
+    top: 20%;
+    right: 20%;
+}
+section div:nth-child(1){
+    top: 20%;
+    left: 20%;
+    animation: 8s anim linear infinite;
+}
+section div:nth-child(2){
+    top: 60%;
+    left: 70%;
+    animation: 10s anim linear infinite;
+}
+section div:nth-child(3){
+    top: 40%;
+    left: 40%;
+    animation: 8s anim linear infinite;
+}
+section div:nth-child(4){
+    top: 66%;
+    left: 30%;
+    animation: 7s anim linear infinite;
+}
+section div:nth-child(5){
+    top: 90%;
+    left: 10%;
+    animation: 9s anim linear infinite;
+}
+section div:nth-child(6){
+    top: 30%;
+    left: 60%;
+    animation: 8s anim linear infinite;
+}
+section div:nth-child(7){
+    top: 45%;
+    left: 65%;
+    animation: 7s anim linear infinite;
+}
+section div:nth-child(8){
+    top: 50%;
+    left: 20%;
+    animation: 10s anim linear infinite;
+}
+section div:nth-child(9){
+    top: 20%;
+    left: 85%;
+    animation: 8s anim linear infinite;
+}
+section div:nth-child(10){
+    top: 10%;
+    left: 50%;
+    animation: 7s anim linear infinite;
+}
+section div:nth-child(11){
+    top: 80%;
+    left: 50%;
+    animation: 10s anim linear infinite;
+}
+section div:nth-child(12){
+    top: 80%;
+    left: 95%;
+    animation: 12s anim linear infinite;
+}
+section div:nth-child(13){
+    top: 60%;
+    left: 60%;
+    animation: 9s anim linear infinite;
+}
+section div:nth-child(14){
+    top: 10%;
+    left: 5%;
+    animation: 5s anim linear infinite;
+}
+section div:nth-child(15){
+    top: 50%;
+    left: 5%;
+    animation: 4s anim linear infinite;
+}
+section div :nth-child(13){
+    top: 33%;
+    left: 33%;
+    animation: 7s anim linear infinite;
+}
+section div :nth-child(14){
+    top: 80%;
+    left: 50%;
+    animation: 10s anim linear infinite;
+}
+section div:nth-child(15){
+    top: 80%;
+    left: 33%;
+    animation: 8s anim linear infinite;
+}
+section div:nth-child(16){
+    top: 12%;
+    left: 44%;
+    animation: 7s anim linear infinite;
+}
+section div:nth-child(17){
+    top: 68%;
+    left: 87%;
+    animation: 10s anim linear infinite;
+}
+section div:nth-child(18){
+    top: 30%;
+    left: 77%;
+    animation: 8s anim linear infinite;
+}
+section div:nth-child(19){
+    top: 70%;
+    left: 40%;
+    animation: 7s anim linear infinite;
+}
+section div:nth-child(20){
+    top: 32%;
+    left: 57%;
+    animation: 6s anim linear infinite;
+}
+section div:nth-child(21){
+    top: 43%;
+    left: 86%;
+    animation: 8s anim linear infinite;
+}
+section div:nth-child(22){
+    top: 80%;
+    left: 80%;
+    animation: 4s anim linear infinite;
+}
+section div:nth-child(23){
+    top: 50%;
+    left: 5%;
+    animation: 7s anim linear infinite;
+}
+section div:nth-child(24){
+    top: 43%;
+    left: 86%;
+    animation: 12s anim linear infinite;
+}
+
+@keyframes anim {
+    0%{
+        transform: scale(0) translateX(0px)  translateY(0) rotate(70deg);
+    }
+    100%{
+        transform: scale(1.3) translateX(100px)  translateY(-100px) rotate(180deg);
+    }
+}  
+git remote add origin https://github.com/MardonMMM/lesson22bubble.git
+git branch -M main
+git push -u origin main
